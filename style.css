@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+html{
+    scroll-behavior: smooth;
+}
+button:hover{
+    background-color: #047b49;
+    color: aqua;
+    transition: all 0.5s linear;
+}
+.banner .item button{
+    border-radius: 20%;
+    width: 10%;
+    height: 10%;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0,0 ,0,0);
+    position: fixed;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/banner2.jpg);
+    background-size: 100% 120%;
+    background-attachment: fixed;
+    color: #fff;
+}
+.navigation{
+    width: 100%;
+    height: 10vh;
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo a{
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.navbar__nav a{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px ;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    transition: all 0.5s linear;
+}
+.navbar__nav i{
+   margin-left: 15px;
+   font-size: 1.3rem;
+}
+.navbar__nav .home{     
+    background-color: aqua;
+    padding: 10px 10px;
+    border-radius: 26px;
+}
+.navbar__nav a:hover{
+    color: aqua;
+}
+.banner{
+    width: 100%;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;  
+    text-align: center;
+}
+.banner .item{
+    width: 1250px;
+    height: 100%;
+    margin-left: 80px;
+    margin-top: 20vh;
+}
+.banner h2{
+    font-size: 5.9rem;
+    font-weight: 200;
+    color: aqua;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
+.banner h1{
+    font-size: 6rem;
+    font-weight: 200;
+    opacity: 0.9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner p{
+   opacity: 0.8;
+   letter-spacing: 0.2px;
+   font-size: 1.1rem;
+} 
+.about img{
+    width: 100%;
+    height: 86%;
+    margin-top: 70px;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.about h2{
+   font-size: 4rem;
+   font-weight: bold;
+   display: flex;
+   justify-content: end;
+   margin-top: 20vh;
+   opacity: 0.9;
+}
+.about p{
+    margin-top: 2vh;
+    font-size: 1.1rem;
+    color: rgb(65, 65, 65);
+    letter-spacing: 0.4px;
+    opacity: 0.8;
+}
+.about button{
+    font-size: 1.1rem;
+    color: white;
+    background-color: black;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: all 0.1s linear;
+}
+.about button:hover{
+    transition: all 0.1s linear;
+    border-top: 6px solid aqua;
+    border-right: 6px solid aqua;
+}
+.Concerts{
+    width: 100%;
+    height: 100vh;
+}
+.about__contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;   
+}
+.concerts__contact{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 1rem;
+    margin-top: 10vh;
+}
+.concerts__contact h2{
+    font-size: 4rem;
+    opacity: 0.9;
+    text-align: center;
+}
+.concerts__contact button:hover{
+    background-color: #07975b;
+    transform: scale(0.9);
+}
+.concerts__contact p{
+    font-size: 1.2rem;
+    opacity: 0.7;
+    letter-spacing: 3px;
+}
+.concerts__contact button{
+    font-size: 1.1rem;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 5vh;
+    transition: all 0.5s linear;
+}
+.gallarey__contact{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    padding-top: 8vh ;
+    gap: 1rem;
+}
+.gallery{
+    width: 100%;
+    height: 110vh;
+    background-color: #565454;
+}
+.gallarey__contact img:hover{
+    filter: brightness(0.4);
+    transition: all 0.6s linear;
+}
+.gallarey__contact .item:first-of-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 3rem;
+}
+.gallarey__contact p{
+    letter-spacing: 0.6px;
+    font-size: 1.1rem;
+    text-align: right;
+    margin-top: 20px;
+}
+.gallarey__contact h2{
+    font-size: 2.4rem;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: end;
+}
+.fouter{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.fouter__titl .fa-facebook{
+    margin-left: 520px;
+}
+.gallarey__contact button{
+    transition: 0.7s linear;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    padding: 7px 10px;
+    margin-top: 5vh;
+    margin-left: 360px;
+    border: 0 ;
+}
+.fouter .titl{
+    font-size: 2.8rem;
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+}
+.fouter__contact input{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 70%;
+    height: 9vh;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold; 
+}
+.fouter__contact .msg{
+    height: 14vh;
+}
+.fouter__contact button{
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border-radius: 28px;
+    margin-top: 30px;
+    margin-left: 580px;
+}
+.fouter__contact .enter__email{
+    width: 45%;
+    margin-left: 200px;
+}
+.fouter__titl{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.fouter__titl__contact h2{
+    color: white;
+    font-size: 2rem;
+    margin-left: 200px;
+}
+.fouter__titl__contact input{
+    margin-left: 200px;
+    width: 50%;
+    height: 7vh;
+    font-size: 1.1rem;
+    border: 0;
+    top: 0;
+}
+.fouter__titl__contact button{
+    border: 0;
+    width: 15%;
+    height: 7vh;
+    top: 0;
+    background-color: hsl(155, 95%, 32%);
+    font-size: 1.1rem;
+}
+.fouter__titl__contact .from{
+    width: 100%;
+    height: 7vh;
+}
+.fouter__titl i {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    
+}
+.fouter__titl .map{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 7vh;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+.map .item{
+    width: 40%;
+    text-align: center;
+    margin-top: 6vh;
+    margin-left: 70px;
+
+}
+.fouter__titl a{
+    color: white;
+    font-size: 1.5rem;
+    background-color: darkgreen;
+    padding: 10px 10px ;
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 7vh;
+    opacity: 0.8;
+    transition: all 0.5s linear;
+}
+.fouter__titl a:hover{
+    background-color: aqua;
+    transition: all 0.5s linear;
+    color: black;
+}
+.fouter__titl h3{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    opacity:0.9;
+    font-weight: 200;
+}
+.fouter__titl .fa-facebook{
+    margin-left: 520px;
+}
